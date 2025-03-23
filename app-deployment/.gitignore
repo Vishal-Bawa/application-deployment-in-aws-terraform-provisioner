@@ -1,0 +1,22 @@
+# Ignore Terraform state files (contains sensitive info)
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform provider cache and lock files
+.terraform/
+.terraform.lock.hcl
+
+# Ignore Terraform variable files (they may store credentials or secrets)
+terraform.tfvars
+
+# Ignore system & editor-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore logs and backup files
+*.log
+*.backup
+
